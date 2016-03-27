@@ -34,6 +34,18 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
+#file {
+  margin: 25px 0;
+}
+
+.image {
+  margin-right: 50px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
@@ -205,14 +217,14 @@ a {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    max-width: 64rem;
-    padding: 2rem 6rem;
+    max-width: 72rem;
+    padding: 2rem 2rem;
     margin: 0 auto;
     font-size: 1.1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     font-size: 1.1rem; } }
 
 @media screen and (max-width: 42em) {
